@@ -48,4 +48,3 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/placement/files/placemen
 * Mon Oct 07 2019 RDO <dev@lists.rdoproject.org> 2.4.0-1
 - Update to 2.4.0
 
-
