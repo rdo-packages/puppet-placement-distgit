@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-placement
-Version:        3.3.0
+Version:        3.4.0
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Placement
 License:        ASL 2.0
@@ -45,6 +45,9 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/placement/files/placemen
 
 
 %changelog
+* Mon Nov 29 2021 RDO <dev@lists.rdoproject.org> 3.4.0-1
+- Update to 3.4.0
+
 * Wed May 06 2020 RDO <dev@lists.rdoproject.org> 3.3.0-1
 - Update to 3.3.0
 
