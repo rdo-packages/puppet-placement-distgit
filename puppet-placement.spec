@@ -63,3 +63,4 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/placement/files/placemen
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-placement/commit/f9b4e707594f22c99c321c6b03dc1cb1c3e51a66
