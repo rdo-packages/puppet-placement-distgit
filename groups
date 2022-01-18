@@ -1,6 +1,6 @@
 # UUID Group Name
 global:Registered-Users	Registered Users
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
 3d84c0024056bba17134d11a56fba5fc3c6f3056	puppet/puppet-placement-core
 401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
 fc7c2ee6bf2a7ad3540c5b812b4c144209607ca1	rdo-opm-core
