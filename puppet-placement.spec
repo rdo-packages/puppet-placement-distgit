@@ -1,9 +1,9 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-placement
-Version:        XXX
-Release:        XXX
+Version:        7.3.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Placement
 License:        ASL 2.0
 
@@ -62,4 +62,7 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/placement/files/placemen
 
 
 %changelog
+* Tue Apr 05 2022 RDO <dev@lists.rdoproject.org> 7.3.0-1
+- Update to 7.3.0
+
 
