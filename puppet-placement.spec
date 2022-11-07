@@ -1,8 +1,8 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
+%global sources_gpg_sign 0xa7475c5f2122fec3f90343223fe3bf5aad1080e4
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-placement
-Version:        5.4.1
+Version:        5.4.2
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Placement
 License:        ASL 2.0
@@ -62,6 +62,9 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/placement/files/placemen
 
 
 %changelog
+* Mon Nov 07 2022 RDO <dev@lists.rdoproject.org> 5.4.2-1
+- Update to 5.4.2
+
 * Wed Feb 16 2022 RDO <dev@lists.rdoproject.org> 5.4.1-1
 - Update to 5.4.1
 
