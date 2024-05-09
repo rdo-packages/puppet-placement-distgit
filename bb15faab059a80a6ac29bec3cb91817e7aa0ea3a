@@ -1,0 +1,8 @@
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 09 May 2024 07:17:22 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/puppet/puppet-placement-distgit/+/53156
+Project: puppet/puppet-placement-distgit
+Branch: refs/heads/zed-rdo
