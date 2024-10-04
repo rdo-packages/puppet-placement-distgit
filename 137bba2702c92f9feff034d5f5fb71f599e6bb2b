@@ -1,0 +1,8 @@
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 04 Oct 2024 11:56:21 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/puppet/puppet-placement-distgit/+/54943
+Project: puppet/puppet-placement-distgit
+Branch: refs/heads/dalmatian-rdo
